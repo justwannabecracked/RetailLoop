@@ -1,0 +1,32 @@
+{
+  "name": "retailloop",
+  "version": "1.0.0",
+  "description": "Welcome to the Retailloop Engine API documentation Integration! This API allows developers to interact with the Retailloop platform, which is a comprehensive retail management system designed to help businesses streamline their operations and improve their customer experience.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "list_end_points": "^2.0.6",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^7.2.4",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.0",
+    "xss-clean": "^0.1.4"
+  }
+}
