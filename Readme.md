@@ -15,9 +15,15 @@ Welcome to the Retailloop Engine API documentation! This API allows developers t
 
 <p>
 The Retailloop Engine API is available in two environments: staging and production. The staging environment is a testing environment that allows developers to test their integrations with the Retailloop platform without affecting real data. The production environment is the live environment, where real data is processed and transactions take place.
+<a href="https://www.retailloop.co/">
+  <img src="https://www.retailloop.co/static/media/order_snip.ed461fe9562894803507.png" alt="Retailoop Logo">
+</a>
 </br> </br>
 To access the Retailloop Engine API, engineers must generate API keys and secret keys. These keys will be used to authenticate API requests and to ensure the security of the platform. Once authenticated, developers can use the API to retrieve information about products, customers, orders, and more, as well as to create, update, and delete data as needed.
 </br></br>
+<a href="https://www.retailloop.co/">
+  <img src="https://www.retailloop.co/static/media/dashboard_pop.54c994c82bf55084dd6f.png" alt="Retailoop Logo">
+</a>
 This documentation will provide an overview of the Retailloop Engine API, including its endpoints, request and response formats, authentication methods, and more. It is intended for developers who are interested in integrating their applications with the Retailloop platform, and assumes a basic understanding of RESTful API concepts and HTTP protocols.
 </br></br>
 We hope you find this documentation helpful and informative, and we look forward to seeing the exciting integrations you create with the Retailloop Engine API!
