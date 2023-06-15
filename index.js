@@ -26,8 +26,8 @@ app.get("/", (req, res) => {
   res.send("This is the Retailloop API Server, Connected Successfully");
 });
 
-// const authRouters = require("./routes/authenticaton");
-// app.use("/retailloop/sample/api/v1/authentication", authRouters);
+const authRouters = require("./routes/authenticaton");
+app.use("/retailloop/sample/api/v1/auth", authRouters);
 app.use(notFound);
 app.use(errorHandler);
 
